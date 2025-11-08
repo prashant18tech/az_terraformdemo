@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/prashant18tech/az_demo_self.git'
+        git branch: 'main', url: 'https://github.com/prashant18tech/Az_terraformDemo.git'
       }
     }
 
